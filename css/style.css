@@ -12,15 +12,12 @@ nav {
   color: white;
   display: grid;
   grid-template-columns: 30% 60%;
-  /* -webkit-column-gap: 10; */
   column-gap: 10%;
   padding: 0% 5%;
 }
 
 nav .array-inputs {
-  /* display: -ms-grid; */
   display: grid;
-  /* -ms-grid-columns: 60% 40%; */
   grid-template-columns: 60% 40%;
   place-content: center;
   padding: 5% 0%; // top bottom have 5% padding left right have 0% padding .
@@ -40,22 +37,15 @@ nav .array-inputs #a_generate {
   outline: none;
   color: white;
   padding: 4% 0% 0% 20%; // top right bottom left .
-  /* padding-left: 20%; */
 }
 
 nav .array-inputs #a_generate:hover {
-
   cursor: pointer;
 }
 
 nav .header_right {
-  /* display: -webkit-box;
-  display: -ms-flexbox; */
   display: flex;
-  /* -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column; */
-          flex-direction: column;
+  flex-direction: column;
 }
 
 nav .header_right .nav-heading {
@@ -65,10 +55,7 @@ nav .header_right .nav-heading {
 }
 
 nav .header_right .algos {
-  /* display: -ms-grid; */
   display: grid;
-  /* -ms-grid-columns: (16.66667%)[6]; */
-      /* grid-template-columns: repeat(6, 16.66667%); */
   grid-template-columns: repeat(6, 1fr);
   place-content: center;
   padding: 2% 0%;
@@ -114,10 +101,9 @@ nav .header_right .algos .butt_unselected:hover {
 }
 
 section {
-  /* display: -m  s-grid; */
   display: grid;
   -ms-grid-columns: 20% 60% 20%;
-      grid-template-columns: 20% 60% 20%;
+  grid-template-columns: 20% 60% 20%;
 }
 
 section .Complexity_Containers {
@@ -164,30 +150,3 @@ section #Info_Cont2 h3 {
 .hide {
   display: none;
 }
-/* #a_generate{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-/*
-@media (max-width: 480px)//Mobiles
-{
-
-}
-
-@media (min-width: 481px) and (max-width: 1250px)//Tablets
-{
-
-}
-
-@media (min-width: 1251px)//Laptops and up
-{
-
-}
-*/
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    *****************
-*/
-/*# sourceMappingURL=style.css.map */
